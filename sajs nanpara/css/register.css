@@ -1,0 +1,58 @@
+/* Add this to set the background color for the entire page */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Update the header background color and text color */
+.header {
+    background-color: #224bcf;
+    color: #fff;
+}
+
+/* Update the navigation links color */
+.header .navbar ul li a {
+    color: #fff;
+}
+
+/* Update the navigation links hover background color */
+.header .navbar ul li a:hover {
+    background: crimson;
+}
+
+/* Add this to make the navigation menu responsive */
+@media (max-width: 768px) {
+    .header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #224bcf;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar ul li {
+        width: 100%;
+    }
+    .header .navbar ul li ul {
+        width: 100%;
+        position: relative;
+    }
+}
+
+/* Update the button styles */
+.btn {
+    background: #224bcf;
+    color: #fff;
+}
+
+.btn:hover {
+    background: crimson;
+    color: #fff;
+}
+
+/* Update the section padding */
+section {
+    padding: 3rem 9%;
+}

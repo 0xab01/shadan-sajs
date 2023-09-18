@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seth Anandram Jaipuria School Nanpara | HOME</title>
+    <link rel="shortcut icon" type="images" href="wtermark.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+     
+        .popup-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Ensure it's on top of other content */
+        }
+
+        .popup-content {
+            max-width: 90%;
+            max-height: 90%;
+            overflow: auto;
+            background-color: #fff; /* Background color for the popup content */
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .popup-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #333;
+        }
+        .portal-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 1rem 3rem;
+            background: #e9edfb;
+            color: #224bcf;
+            cursor: pointer;
+            border-radius: .5rem;
+            font-size: 1.7rem;
+            text-decoration: none !important;
+            font-weight: 600;
+            border: none;
+        }
+        .portal-btn:hover {
+            color: #fff;
+            background: #224bcf;
+        }
+        
+        
+
+ 
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+   
+
+    <div class="popup-container" id="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup" onclick="closePopup()">&times;</span>
+            <img src="Pop.jpg" alt="Popup Image">
+        </div>
+    </div>
+ 
+
+    <header class="header">
+
+        <a href="index.html" class="logo"> <i class="fas fa-user-graduate"></i> Seth Anandram Jaipuria School Nanpara </a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a>
+                    <ul class="submenu">
+                        <li><a href="princi.html">Principal Message</a></li>
+                        <li><a href="#">Our Achievements</a></li>
+                    </ul></li>
+                <li><a href="gallery1.html">GALLERY</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="register.html">Admission</a></li>
+                
+            </ul>
+        </nav>
+
+    </header>
+->
+
+    <section class="home">
+
+        <div class="image">
+            <img src="logo.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>
+                "Empowering Minds, Enriching Futures"</h3>
+            <p>We, at Seth Anandram Jaipuria School, Nanpara, are committed to our motto ‘Empower, Enthuse and Excel’ in providing quality education and teaching every child the necessary values to guide him/her through the journey of life.</p>
+            <a href="map.html" class="btn">View school in map</a>
+            <a class="portal-btn" href="https://sajsnanpara.edunexttechnologies.com/Index" target="_blank">Parent Portal Login</a>
+
+           
+        </div>
+
+    </section>
+
+    
+    <section class="category">
+
+        <a href="#" class="box">
+            <img src="images/category-1.png" alt="">
+            <h3>computer science</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-2.png" alt="">
+            <h3>biology & life</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-3.png" alt="">
+            <h3>Logical Thinking </h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-4.png" alt="">
+            <h3>social science</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-5.png" alt="">
+            <h3>Problem Solving</h3>
+        </a>
+
+    </section>
+
+ 
+
+
+
+
+
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>explore</h3>
+                <a href="home.html"> <i class="fas fa-arrow-right"></i> HOME </a>
+                <a href="about.html"> <i class="fas fa-arrow-right"></i> ABOUT </a>
+                <a href="gallery1.html"> <i class="fas fa-arrow-right"></i> GALLERY </a>
+                <a href="blog.html"> <i class="fas fa-arrow-right"></i> BLOG </a>
+                
+            </div>
+
+            <div class="box">
+                <h3>Follow US</h3>
+                <a href="https://www.facebook.com/JaipuriaSchoolNanpara/"> <i class="fab fa-facebook-f"></i> facebook </a>
+                
+                <a href="https://www.linkedin.com/company/seth-anandram-jaipuria-school-nanpara/?originalSubdomain=in"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="https://www.instagram.com/jaipuriaschoolnanpara/"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://www.youtube.com/channel/UCG4zEXQGei6B8MjdR0BJE_g"> <i class="fab fa-youtube"></i> youtube </a>
+                
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span>Azanul Rana</span> | all rights reserved! </div>
+
+    </section>
+
+
+    <script src="js/script.js"></script>
+
+ 
+     <script>
+        
+        window.onload = function () {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'flex'; 
+
+       
+        function closePopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>
